@@ -46,7 +46,8 @@
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
-} 
+}
+/* Phần đầu */
 header {
     float: left;
     padding: 5px;
@@ -54,6 +55,7 @@ header {
     background-color: 	#3b5998;
     margin-bottom: 5px;
     height: 50px;
+    box-shadow: 5px 5px 10px #ccc;
 }
 #pic1 {
     float: left;
@@ -106,6 +108,7 @@ header {
     border: 1px solid #CDCDCD;
     float: left;
     margin-bottom: 5px;
+    box-shadow: 5px 5px 10px #ccc;
     }
 #content {
     width: 800px;
@@ -115,6 +118,7 @@ header {
     margin-left: 65px;
     margin-right: 5px;
     margin-bottom: 5px;
+    box-shadow: 5px 5px 10px #ccc;
     }
 #right {
     width: 300px;
@@ -122,6 +126,7 @@ header {
     border: 1px solid #CDCDCD;
     float: right;
     margin-bottom: 5px;
+    box-shadow: 5px 5px 10px #ccc;
     }
 #footer {
     height: 50px;
@@ -132,7 +137,7 @@ header {
 #menu {
     font-size: larger;
 }
-
+/* Phần giữa */
 #menu, #menu ul, #menu li { padding: 0; margin: 0; }
 #menu li{
     list-style: none;
@@ -244,4 +249,25 @@ header {
 .content2 {
     margin-top: 10px;
     border: 1px solid gray;
+    padding-left: 10px;
+}
+.avacontent {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    border-radius: 50%;
+    border: 3px solid #5291ad;
+    float: left;
+}
+.content2-1 div {
+    margin-top: 35px;
+}
+span a{
+    text-decoration: none;
+    font-size: 16px;
+}
+.contentpic {
+    width: 32%;
+    height: 200px;
+    margin-top: 30px;
 }
