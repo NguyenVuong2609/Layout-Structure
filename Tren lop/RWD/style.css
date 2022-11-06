@@ -1,0 +1,144 @@
+/* For desktop: */
+.col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+   
+}
+  
+  @media only screen and (min-width: 600px) {
+    
+  }
+  
+  @media only screen and (min-width: 768px) {
+  
+  }
+  
+  @media only screen and (min-width: 992px) {
+ 
+  }
+  
+  @media only screen and (max-width: 1200px) {
+  
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head {
+    color: white;
+    background-color: #353a40;
+    padding: 10px;
+    position: absolute;
+    display:flex;
+    float: left;
+    top: 0;
+    left: 0;
+}
+span {
+    padding-left: 10px;
+}
+
+/* Phần thân */
+.body {
+    position: absolute;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    justify-content: center;
+    padding-left: 18%;
+    padding-right: 18%;
+}
+.body div {
+    color: #acb3b9;
+}
+.body a {
+    border: 1px solid white;
+    border-radius: 6px;
+    padding: 8px;
+    text-decoration: none;
+    color: white;
+}
+.body-content1 {
+    display: flex;
+    position: absolute;
+    margin-top: 400px;
+    justify-content: center;
+    margin-left: 3%;
+    margin-right: 5%;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.contentmain {
+    margin-right: 50px;
+}
+.body-content2 {
+    display: flex;
+    position: absolute;
+    margin-top: 850px;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.contents1 {
+    text-align: justify;
+}
+.button-content a {
+    text-decoration: none;
+    color: #353a40;
+    border: 1px solid #353a40;
+    border-radius: 5px;
+    padding: 2px;
+    float: left;
+}
+.button-content span {
+    float: right;
+    opacity: 0.5;
+}
